@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Joshua Hagan \\ Website</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
+        <style>
+           
+
+.glitch {
+  color: white;
+  
+  font-size: 65px;
+  position: relative;
+}
+
+.glitchDuplicate {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+        </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+    </head>
+    <body class="bg-gray-900">
+        <!-- Navbar -->
+        <section class="mx-auto container px-6 lg:px-14 xl:px-0">
+            <div class="hidden md:flex justify-between items-center mt-16 mb-12">
+                <div class="flex flex-row items-center space-x-10">
+                    <div>
+                     
+                    </div>
+                  
+                </div>
+                <div class="flex justify-center items-center space-x-6">
+                   
+                    <div class="flex justify-center items-center rounded-lg"><a href="https://github.com/itsmejoshua" target="_blank">
+                        <button class="text-white text-2xl hover:text-gray-300 focus:outline-none focus:text-gray-300">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 2.66663C8.63336 2.66663 2.66669 8.63329 2.66669 16C2.66518 18.799 3.54511 21.5274 5.18164 23.7982C6.81818 26.069 9.12822 27.7667 11.784 28.6506C12.4507 28.7666 12.7 28.3666 12.7 28.016C12.7 27.7 12.6827 26.6506 12.6827 25.5333C9.33335 26.1506 8.46669 24.7173 8.20002 23.9666C8.04936 23.5826 7.40002 22.4 6.83336 22.0826C6.36669 21.8333 5.70002 21.216 6.81602 21.2C7.86669 21.1826 8.61602 22.1666 8.86669 22.5666C10.0667 24.5826 11.984 24.016 12.7494 23.6666C12.8667 22.8 13.216 22.2173 13.6 21.884C10.6334 21.5506 7.53336 20.4 7.53336 15.3C7.53336 13.8493 8.04936 12.6506 8.90002 11.716C8.76669 11.3826 8.30002 10.016 9.03336 8.18263C9.03336 8.18263 10.1494 7.83329 12.7 9.55063C13.7854 9.24937 14.9069 9.09775 16.0334 9.09996C17.1667 9.09996 18.3 9.24929 19.3667 9.54929C21.916 7.81596 23.0334 8.18396 23.0334 8.18396C23.7667 10.0173 23.3 11.384 23.1667 11.7173C24.016 12.6506 24.5334 13.8333 24.5334 15.3C24.5334 20.4173 21.4174 21.5506 18.4507 21.884C18.9334 22.3 19.3507 23.1 19.3507 24.3506C19.3507 26.1333 19.3334 27.5666 19.3334 28.0173C19.3334 28.3666 19.584 28.7826 20.2507 28.6493C22.8974 27.7557 25.1972 26.0546 26.8266 23.7855C28.4559 21.5164 29.3326 18.7934 29.3334 16C29.3334 8.63329 23.3667 2.66663 16 2.66663Z"
+                                    fill="#D1D5DB"
+                                />
+                            </svg>
+                        </button></a>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg"><a href="https://www.linkedin.com/in/itsmejoshua" target="_blank">
+                        <button class="text-white text-2xl hover:text-gray-300 focus:outline-none focus:text-gray-300">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24.4467 24.452H20.8933V18.8827C20.8933 17.5547 20.8667 15.8453 19.04 15.8453C17.188 15.8453 16.9053 17.2907 16.9053 18.7853V24.452H13.3507V13H16.764V14.56H16.8107C17.288 13.6613 18.448 12.7107 20.1813 12.7107C23.7813 12.7107 24.448 15.0813 24.448 18.1653V24.452H24.4467ZM9.33733 11.4333C9.06607 11.4337 8.79741 11.3805 8.54675 11.2768C8.29609 11.1731 8.06836 11.021 7.87661 10.8291C7.68486 10.6372 7.53287 10.4094 7.42935 10.1587C7.32582 9.90795 7.27281 9.63926 7.27333 9.368C7.2736 8.95978 7.39491 8.5608 7.62192 8.22153C7.84894 7.88225 8.17146 7.61791 8.54871 7.46194C8.92595 7.30596 9.34098 7.26536 9.74131 7.34525C10.1416 7.42515 10.5093 7.62197 10.7977 7.91081C11.0862 8.19965 11.2826 8.56755 11.3619 8.96798C11.4413 9.3684 11.4002 9.78338 11.2437 10.1604C11.0872 10.5375 10.8225 10.8597 10.4829 11.0862C10.1434 11.3128 9.74422 11.4336 9.336 11.4333H9.33733ZM11.1187 24.452H7.55467V13H11.12V24.452H11.1187ZM26.2267 4H5.772C4.79067 4 4 4.77333 4 5.72933V26.2707C4 27.2267 4.792 28 5.77067 28H26.2213C27.2 28 28 27.2267 28 26.2707V5.72933C28 4.77333 27.2 4 26.2213 4H26.2253H26.2267Z"
+                                    fill="#D1D5DB"
+                                />
+                            </svg>
+                        </button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mobile responsive Navbar -->
+        <div class="relative md:hidden mx-auto container w-full px-6 pb-20 pt-6">
+            <div class="flex justify-between items-center">
+                <div class="flex justify-center items-center">
+                   
+                </div>
+                <div class="flex justify-center items-center space-x-6">
+                   
+                    <div class="flex justify-center items-center rounded-lg"><a href="https://github.com/itsmejoshua" target="_blank">
+                        <button class="hover:text-gray-300 focus:outline-none focus:text-gray-300 text-white text-2xl">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16 2.66663C8.63336 2.66663 2.66669 8.63329 2.66669 16C2.66518 18.799 3.54511 21.5274 5.18164 23.7982C6.81818 26.069 9.12822 27.7667 11.784 28.6506C12.4507 28.7666 12.7 28.3666 12.7 28.016C12.7 27.7 12.6827 26.6506 12.6827 25.5333C9.33335 26.1506 8.46669 24.7173 8.20002 23.9666C8.04936 23.5826 7.40002 22.4 6.83336 22.0826C6.36669 21.8333 5.70002 21.216 6.81602 21.2C7.86669 21.1826 8.61602 22.1666 8.86669 22.5666C10.0667 24.5826 11.984 24.016 12.7494 23.6666C12.8667 22.8 13.216 22.2173 13.6 21.884C10.6334 21.5506 7.53336 20.4 7.53336 15.3C7.53336 13.8493 8.04936 12.6506 8.90002 11.716C8.76669 11.3826 8.30002 10.016 9.03336 8.18263C9.03336 8.18263 10.1494 7.83329 12.7 9.55063C13.7854 9.24937 14.9069 9.09775 16.0334 9.09996C17.1667 9.09996 18.3 9.24929 19.3667 9.54929C21.916 7.81596 23.0334 8.18396 23.0334 8.18396C23.7667 10.0173 23.3 11.384 23.1667 11.7173C24.016 12.6506 24.5334 13.8333 24.5334 15.3C24.5334 20.4173 21.4174 21.5506 18.4507 21.884C18.9334 22.3 19.3507 23.1 19.3507 24.3506C19.3507 26.1333 19.3334 27.5666 19.3334 28.0173C19.3334 28.3666 19.584 28.7826 20.2507 28.6493C22.8974 27.7557 25.1972 26.0546 26.8266 23.7855C28.4559 21.5164 29.3326 18.7934 29.3334 16C29.3334 8.63329 23.3667 2.66663 16 2.66663Z"
+                                    fill="#D1D5DB"
+                                />
+                            </svg>
+                        </button></a>
+                    </div>
+                    <div class="flex justify-center items-center rounded-lg"><a href="https://www.linkedin.com/in/itsmejoshua" target="_blank">
+                        <button class="hover:text-gray-300 focus:outline-none focus:text-gray-300 text-white text-2xl">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24.4467 24.452H20.8933V18.8827C20.8933 17.5547 20.8667 15.8453 19.04 15.8453C17.188 15.8453 16.9053 17.2907 16.9053 18.7853V24.452H13.3507V13H16.764V14.56H16.8107C17.288 13.6613 18.448 12.7107 20.1813 12.7107C23.7813 12.7107 24.448 15.0813 24.448 18.1653V24.452H24.4467ZM9.33733 11.4333C9.06607 11.4337 8.79741 11.3805 8.54675 11.2768C8.29609 11.1731 8.06836 11.021 7.87661 10.8291C7.68486 10.6372 7.53287 10.4094 7.42935 10.1587C7.32582 9.90795 7.27281 9.63926 7.27333 9.368C7.2736 8.95978 7.39491 8.5608 7.62192 8.22153C7.84894 7.88225 8.17146 7.61791 8.54871 7.46194C8.92595 7.30596 9.34098 7.26536 9.74131 7.34525C10.1416 7.42515 10.5093 7.62197 10.7977 7.91081C11.0862 8.19965 11.2826 8.56755 11.3619 8.96798C11.4413 9.3684 11.4002 9.78338 11.2437 10.1604C11.0872 10.5375 10.8225 10.8597 10.4829 11.0862C10.1434 11.3128 9.74422 11.4336 9.336 11.4333H9.33733ZM11.1187 24.452H7.55467V13H11.12V24.452H11.1187ZM26.2267 4H5.772C4.79067 4 4 4.77333 4 5.72933V26.2707C4 27.2267 4.792 28 5.77067 28H26.2213C27.2 28 28 27.2267 28 26.2707V5.72933C28 4.77333 27.2 4 26.2213 4H26.2253H26.2267Z"
+                                    fill="#D1D5DB"
+                                />
+                            </svg>
+                        </button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Mobile responsive sidebar-->
+        
+
+        <!-- Navbar end -->
+
+        <section>
+            <div class="mx-auto container px-6 lg:px-14 xl:px-0">
+                <div class="flex justify-between items-center flex-col xl:flex-row xl:space-x-12 space-y-16 xl:space-y-0">
+                    <div class="flex justify-start items-start flex-col">
+                        <div>
+                            <h1 class="md:text-7xl text-4xl font-black leading-tight text-white ">Hello, I'm <br/><span class="glitch">Joshua Hagan</span>.</h1>
+                        </div>
+                        <div class="md::mt-8 mt-4">
+                            <p class="text-2xl leading-6 font-medium text-white">Software Developer</p>
+                        </div>
+                        <div class="md:mt-4 mt-2">
+                            <p class="text-base leading-normal text-gray-400 xl:w-192">I'm a Web Developer specialising in PHP and Laravel I also have extensive experience setting up and maintaining web/database servers I'm located in Perth, Western Australia occasionally you'll find me in Singapore, I'm the founder and lead project manager for open source <a href="https://opencareinitiative.org/projects">Open Care Initiative</a> an upcoming SaaS solution for aged care providers.</p>
+                        </div>
+                        <div class="mt-12 border-b border-transparent hover:border-white pb-1">
+                            <a href="mailto:me@joshuahagan.id.au" class="tracking-wide focus:outline-none focus:text-gray-300 text-base font-bold leading-none text-white">
+                                <p>Lets get in touch</p>
+                            </a>
+                        </div>
+                    </div>
+                    
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+
+      
+        <script src="assets/index.js"></script>
+    </body>
+</html>
